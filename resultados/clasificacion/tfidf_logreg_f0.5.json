@@ -1,0 +1,1 @@
+{"nombre": "tfidf_logreg_f0.5", "fraccion_train": 0.5, "n_train": 54000, "caracteristicas": 239015, "parametros_totales": 956064, "parametros_entrenables": 956064, "tiempo_s": 11.084115028381348, "validacion": {"accuracy": 0.914, "precision": 0.9139414395795706, "recall": 0.914, "f1": 0.9138791430249441}}
