@@ -1,0 +1,293 @@
+{
+ "config": {
+  "dim": 300,
+  "ventana": 5,
+  "negativos": 5,
+  "umbral_submuestreo": 0.001,
+  "min_count": 5,
+  "fraccion_corpus": 1.0,
+  "epochs": 5,
+  "batch_size": 32768,
+  "learning_rate": 0.002,
+  "sg": 1,
+  "alpha": 0.025,
+  "min_alpha": 0.0001,
+  "workers": 10
+ },
+ "tokens_corpus": 19662943,
+ "vocabulario": 87487,
+ "historial": [
+  {
+   "epoch": 1,
+   "perdida_gensim": 16642921.0,
+   "tiempo_epoch_s": 24.937319040298462,
+   "analogias_semanticas": 0.06358543417366946,
+   "analogias_sintacticas": 0.1494210847044485,
+   "analogias_total": 0.12339702760084925,
+   "analogias_evaluadas": 11775,
+   "wordsim_spearman": 0.5065483188203479,
+   "vecinos": {
+    "king": [
+     "béla",
+     "accession",
+     "domnall",
+     "harald",
+     "blois"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "havre",
+     "austria",
+     "portugal"
+    ],
+    "computer": [
+     "desktop",
+     "spacewar",
+     "point-and-click",
+     "handheld",
+     "computers"
+    ],
+    "good": [
+     "bad",
+     "thrilled",
+     "decent",
+     "thankful",
+     "yesterday"
+    ],
+    "january": [
+     "february",
+     "april",
+     "december",
+     "march",
+     "november"
+    ],
+    "run": [
+     "four-yard",
+     "six-yard",
+     "two-yard",
+     "two-run",
+     "14-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "perdida_gensim": 12625737.0,
+   "tiempo_epoch_s": 25.965829133987427,
+   "analogias_semanticas": 0.12885154061624648,
+   "analogias_sintacticas": 0.2680073126142596,
+   "analogias_total": 0.22581740976645434,
+   "analogias_evaluadas": 11775,
+   "wordsim_spearman": 0.5803602647500985,
+   "vecinos": {
+    "king": [
+     "domnall",
+     "bagrat",
+     "æthelred",
+     "offa",
+     "ecgfrith"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "netherlands",
+     "austria",
+     "belgium"
+    ],
+    "computer": [
+     "handheld",
+     "desktop",
+     "spacewar",
+     "computers",
+     "servers"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "trashy",
+     "tidy",
+     "lackluster"
+    ],
+    "january": [
+     "february",
+     "december",
+     "march",
+     "november",
+     "june"
+    ],
+    "run": [
+     "three-run",
+     "50-day",
+     "four-yard",
+     "six-yard",
+     "inside-the-park"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "perdida_gensim": 9441978.0,
+   "tiempo_epoch_s": 31.62956476211548,
+   "analogias_semanticas": 0.18179271708683473,
+   "analogias_sintacticas": 0.3701401584399756,
+   "analogias_total": 0.313036093418259,
+   "analogias_evaluadas": 11775,
+   "wordsim_spearman": 0.6229452649567581,
+   "vecinos": {
+    "king": [
+     "æthelred",
+     "domnall",
+     "bagrat",
+     "æthelstan",
+     "eadberht"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "marseilles",
+     "portugal",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "desktop",
+     "spacewar",
+     "text-based",
+     "mainframe"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "phenomenal",
+     "flattering",
+     "trashy"
+    ],
+    "january": [
+     "february",
+     "march",
+     "december",
+     "april",
+     "november"
+    ],
+    "run": [
+     "inside-the-park",
+     "running",
+     "three-run",
+     "walk-off",
+     "six-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "perdida_gensim": 7172540.0,
+   "tiempo_epoch_s": 26.759719133377075,
+   "analogias_semanticas": 0.22661064425770308,
+   "analogias_sintacticas": 0.4231566118220597,
+   "analogias_total": 0.36356687898089174,
+   "analogias_evaluadas": 11775,
+   "wordsim_spearman": 0.6388818975806813,
+   "vecinos": {
+    "king": [
+     "æthelred",
+     "ecgfrith",
+     "haakon",
+     "offa",
+     "bagrat"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "portugal",
+     "belgium",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "desktop",
+     "spacewar",
+     "mainframe",
+     "text-based"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "better",
+     "decent",
+     "flattering"
+    ],
+    "january": [
+     "february",
+     "march",
+     "december",
+     "april",
+     "november"
+    ],
+    "run": [
+     "running",
+     "inside-the-park",
+     "three-run",
+     "walk-off",
+     "runs"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "perdida_gensim": 7067504.0,
+   "tiempo_epoch_s": 30.272773265838623,
+   "analogias_semanticas": 0.2630252100840336,
+   "analogias_sintacticas": 0.45082266910420477,
+   "analogias_total": 0.39388535031847133,
+   "analogias_evaluadas": 11775,
+   "wordsim_spearman": 0.6421659106448439,
+   "vecinos": {
+    "king": [
+     "æthelred",
+     "queen",
+     "haakon",
+     "kamehameha",
+     "ecgfrith"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "portugal",
+     "belgium",
+     "austria"
+    ],
+    "computer": [
+     "computers",
+     "desktop",
+     "spacewar",
+     "text-based",
+     "mainframe"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "poor",
+     "better",
+     "decent"
+    ],
+    "january": [
+     "february",
+     "december",
+     "march",
+     "april",
+     "november"
+    ],
+    "run": [
+     "running",
+     "ran",
+     "inside-the-park",
+     "three-run",
+     "walk-off"
+    ]
+   }
+  }
+ ],
+ "tiempo_total_s": 209.04225707054138,
+ "dispositivo": "cpu"
+}

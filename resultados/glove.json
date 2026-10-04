@@ -1,0 +1,55 @@
+{
+ "modelo": "glove-wiki-gigaword-100",
+ "tokens_corpus": 6000000000,
+ "vocabulario": 400000,
+ "dim": 100,
+ "analogias_semanticas": 0.6554481839386871,
+ "analogias_sintacticas": 0.6545352112676056,
+ "analogias_total": 0.6549035423808564,
+ "analogias_evaluadas": 14877,
+ "wordsim_spearman": 0.5327354323238274,
+ "vecinos": {
+  "king": [
+   "prince",
+   "queen",
+   "son",
+   "brother",
+   "monarch"
+  ],
+  "france": [
+   "belgium",
+   "french",
+   "britain",
+   "spain",
+   "paris"
+  ],
+  "computer": [
+   "computers",
+   "software",
+   "technology",
+   "pc",
+   "hardware"
+  ],
+  "good": [
+   "better",
+   "sure",
+   "really",
+   "kind",
+   "very"
+  ],
+  "january": [
+   "december",
+   "october",
+   "february",
+   "november",
+   "september"
+  ],
+  "run": [
+   "running",
+   "runs",
+   "ran",
+   "out",
+   "go"
+  ]
+ }
+}

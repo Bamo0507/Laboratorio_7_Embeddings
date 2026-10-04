@@ -1,0 +1,388 @@
+{
+ "nombre": "ventana_2",
+ "config": {
+  "dim": 100,
+  "ventana": 2,
+  "negativos": 5,
+  "umbral_submuestreo": 0.001,
+  "min_count": 5,
+  "fraccion_corpus": 1.0,
+  "epochs": 5,
+  "batch_size": 32768,
+  "learning_rate": 0.002
+ },
+ "tokens_corpus": 19662943,
+ "vocabulario": 87489,
+ "parametros": 17497800,
+ "historial": [
+  {
+   "epoch": 1,
+   "perdida": 2.4938945212559394,
+   "perdidas_cada_n_pasos": [
+    4.1588826179504395,
+    2.7205963134765625,
+    2.620145320892334,
+    2.5923774242401123,
+    2.5498504638671875,
+    2.505523681640625,
+    2.460691452026367,
+    2.4139480590820312,
+    2.3721201419830322,
+    2.334913730621338,
+    2.3201100826263428,
+    2.289705514907837,
+    2.278463363647461,
+    2.2592408657073975
+   ],
+   "pares": 44812472,
+   "pasos": 1368,
+   "tiempo_epoch_s": 44.55657601356506,
+   "tiempo_evaluacion_s": 4.669297933578491,
+   "analogias_semanticas": 0.07054388799138395,
+   "analogias_sintacticas": 0.11487572647458885,
+   "analogias_total": 0.10092365053808999,
+   "analogias_evaluadas": 11801,
+   "wordsim_spearman": 0.4535951042707357,
+   "vecinos": {
+    "king": [
+     "emperor",
+     "ranavalona",
+     "henry",
+     "rama",
+     "chola"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "portugal",
+     "germany",
+     "austria"
+    ],
+    "computer": [
+     "real-time",
+     "virtual",
+     "3d",
+     "software",
+     "multiplayer"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "damn",
+     "fun",
+     "fascinating"
+    ],
+    "january": [
+     "february",
+     "june",
+     "december",
+     "november",
+     "april"
+    ],
+    "run": [
+     "pass",
+     "45-yard",
+     "three-yard",
+     "40-yard",
+     "5-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "perdida": 2.1833217687774122,
+   "perdidas_cada_n_pasos": [
+    2.235100269317627,
+    2.225637912750244,
+    2.2197704315185547,
+    2.2037100791931152,
+    2.2035913467407227,
+    2.1954383850097656,
+    2.1949102878570557,
+    2.1687698364257812,
+    2.179914712905884,
+    2.1741859912872314,
+    2.1711654663085938,
+    2.150533676147461,
+    2.15018892288208,
+    2.1477742195129395
+   ],
+   "pares": 44808514,
+   "pasos": 1368,
+   "tiempo_epoch_s": 44.50045704841614,
+   "tiempo_evaluacion_s": 4.112667798995972,
+   "analogias_semanticas": 0.14835756596661281,
+   "analogias_sintacticas": 0.27995548411030047,
+   "analogias_total": 0.23853910685535124,
+   "analogias_evaluadas": 11801,
+   "wordsim_spearman": 0.5271715246520867,
+   "vecinos": {
+    "king": [
+     "béla",
+     "rama",
+     "pope",
+     "haakon",
+     "óengus"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "portugal",
+     "austria",
+     "belgium"
+    ],
+    "computer": [
+     "software",
+     "kinect",
+     "desktop",
+     "hardware",
+     "real-time"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "gracious",
+     "quiet",
+     "instinctual"
+    ],
+    "january": [
+     "december",
+     "february",
+     "june",
+     "november",
+     "july"
+    ],
+    "run": [
+     "44-yard",
+     "pass",
+     "runs",
+     "drive",
+     "16-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "perdida": 2.1102239597610564,
+   "perdidas_cada_n_pasos": [
+    2.120636463165283,
+    2.1250593662261963,
+    2.1272730827331543,
+    2.1274659633636475,
+    2.1099581718444824,
+    2.1114635467529297,
+    2.121170997619629,
+    2.116931915283203,
+    2.101081132888794,
+    2.102658271789551,
+    2.099409580230713,
+    2.103484630584717,
+    2.1015071868896484,
+    2.0931851863861084
+   ],
+   "pares": 44817752,
+   "pasos": 1368,
+   "tiempo_epoch_s": 46.15459108352661,
+   "tiempo_evaluacion_s": 4.506762981414795,
+   "analogias_semanticas": 0.18093699515347333,
+   "analogias_sintacticas": 0.3468529739087424,
+   "analogias_total": 0.29463604779256,
+   "analogias_evaluadas": 11801,
+   "wordsim_spearman": 0.5704266445703434,
+   "vecinos": {
+    "king": [
+     "vikramaditya",
+     "haakon",
+     "óengus",
+     "emperor",
+     "mieszko"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "portugal",
+     "belgium",
+     "austria"
+    ],
+    "computer": [
+     "software",
+     "computers",
+     "snes",
+     "handheld",
+     "coin-operated"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "gracious",
+     "poor",
+     "dreadful"
+    ],
+    "january": [
+     "february",
+     "december",
+     "july",
+     "november",
+     "june"
+    ],
+    "run": [
+     "pass",
+     "pinch-hit",
+     "runs",
+     "45-yard",
+     "23-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "perdida": 2.0745378460800437,
+   "perdidas_cada_n_pasos": [
+    2.0640480518341064,
+    2.070150852203369,
+    2.0684027671813965,
+    2.0826003551483154,
+    2.0708823204040527,
+    2.0760679244995117,
+    2.0734548568725586,
+    2.079345464706421,
+    2.071392297744751,
+    2.0820624828338623,
+    2.076714038848877,
+    2.0801665782928467,
+    2.067502021789551,
+    2.076615810394287
+   ],
+   "pares": 44809391,
+   "pasos": 1368,
+   "tiempo_epoch_s": 44.95952320098877,
+   "tiempo_evaluacion_s": 3.7993171215057373,
+   "analogias_semanticas": 0.21701669359181475,
+   "analogias_sintacticas": 0.3891430691232843,
+   "analogias_total": 0.33497161257520547,
+   "analogias_evaluadas": 11801,
+   "wordsim_spearman": 0.5960913628125093,
+   "vecinos": {
+    "king": [
+     "emperor",
+     "vikramaditya",
+     "haakon",
+     "eadberht",
+     "mieszko"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "austria"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "technology",
+     "handheld",
+     "hardware"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "poor",
+     "gracious",
+     "excellent"
+    ],
+    "january": [
+     "february",
+     "december",
+     "july",
+     "june",
+     "november"
+    ],
+    "run": [
+     "runs",
+     "pinch-hit",
+     "16-yard",
+     "73-yard",
+     "65-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "perdida": 2.052722417820267,
+   "perdidas_cada_n_pasos": [
+    2.0451860427856445,
+    2.043367862701416,
+    2.0505969524383545,
+    2.0565435886383057,
+    2.0560641288757324,
+    2.0582427978515625,
+    2.046982526779175,
+    2.0549135208129883,
+    2.048067569732666,
+    2.048414707183838,
+    2.057874917984009,
+    2.061156988143921,
+    2.0512709617614746,
+    2.059879779815674
+   ],
+   "pares": 44803950,
+   "pasos": 1368,
+   "tiempo_epoch_s": 45.006783962249756,
+   "tiempo_evaluacion_s": 4.462082147598267,
+   "analogias_semanticas": 0.23801830910070004,
+   "analogias_sintacticas": 0.40781501174724866,
+   "analogias_total": 0.35437674773324296,
+   "analogias_evaluadas": 11801,
+   "wordsim_spearman": 0.6085991176512039,
+   "vecinos": {
+    "king": [
+     "emperor",
+     "vikramaditya",
+     "uroš",
+     "mieszko",
+     "ballala"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "pdp-1",
+     "handheld",
+     "hardware"
+    ],
+    "good": [
+     "bad",
+     "decent",
+     "poor",
+     "excellent",
+     "gracious"
+    ],
+    "january": [
+     "february",
+     "december",
+     "november",
+     "june",
+     "july"
+    ],
+    "run": [
+     "pinch-hit",
+     "44-yard",
+     "eighth-inning",
+     "16-yard",
+     "73-yard"
+    ]
+   }
+  }
+ ],
+ "tiempo_total_s": 246.80946016311646,
+ "tiempo_entrenamiento_s": 225.17793130874634,
+ "memoria_pico_gb": 0.368574976,
+ "dispositivo": "mps"
+}
